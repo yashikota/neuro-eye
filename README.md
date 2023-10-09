@@ -10,14 +10,20 @@
 ## Usage
 
 ```sh
-./main
+./neuro-eye
+```
+
+### Windows
+
+```sh
+./Release/neuro-eye.exe
 ```
 
 ## Options
 
 ## Build
 
-1. ビルド用ディレクトリの作成
+1. make build directory  
 
 ```sh
 mkdir build
@@ -30,13 +36,13 @@ cd build
 cmake ..
 ```
 
-3. ビルド
+3. build
 
 ```sh
 cmake --build .
 ```
 
-(Windows用リリースビルドコマンド)  
+(Release build command for Windows)  
 
 ```sh
 cmake --build . --config Release
