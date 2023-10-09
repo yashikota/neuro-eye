@@ -4,9 +4,7 @@
 
 ## Dependencies
 
-```sh
-sudo apt install libopencv-dev
-```
+- Opencv 4.5.1
 
 ## Usage
 
@@ -18,6 +16,27 @@ sudo apt install libopencv-dev
 
 ## Build
 
+1. ビルド用ディレクトリの作成
+
 ```sh
-make
+mkdir build
+cd build
+```
+
+2. cmake  
+
+```sh
+cmake ..
+```
+
+3. ビルド
+
+```sh
+cmake --build .
+```
+
+(Windows用リリースビルドコマンド)  
+
+```sh
+cmake --build . --config Release
 ```
