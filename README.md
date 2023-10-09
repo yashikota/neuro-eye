@@ -5,6 +5,7 @@
 ## Dependencies
 
 - Opencv 4.5.1
+- CMake 3.27
 
 ## Usage
 
