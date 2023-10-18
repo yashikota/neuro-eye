@@ -2,6 +2,11 @@
 
 [English](./README.md) | [Japanese](./README.ja.md)  
 
+||||||
+|-|-|-|-|-|
+| Original | Threshold | Blur | Highlight edge | Position edge(Left, Right) |
+| Frame diff | Move edge(Left, Right) | Direction(Left, Right) | Direction(Up, Down) | Direction(Up, Down, Left, Right) |
+
 ## Dependencies
 
 - Opencv 4.5.1
